@@ -148,7 +148,7 @@ const result = switchCase(
   [otherwise, (a: number, b: number) => a + b]
 )(2, 3);
 
-// typeof result = string
+// typeof result = number
 // typeof condition functions inside switchCase will be
 // (...args: number[]) => boolean
 // and typeof result functions inside switchCase will be
