@@ -1,13 +1,14 @@
 {
   "name": "adv-switch-case",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "https://github.com/chandru89new/switch-case.git",
   "author": "Chandru <chandru89new@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "yarn jest",
-    "build": "yarn jest && tsc"
+    "build": "yarn jest && tsc",
+    "update-package": "npm publish && git push origin main"
   },
   "devDependencies": {
     "@types/jest": "^28.1.7",
