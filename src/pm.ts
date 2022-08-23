@@ -1,6 +1,6 @@
 type CondPairs<Args extends unknown[], Result extends unknown> = [
   (...args: Args) => boolean,
-  (...args: any[]) => Result
+  (...args: Args) => Result
 ];
 
 export const switchCase = <A extends unknown[], R extends unknown>
