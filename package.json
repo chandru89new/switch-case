@@ -5,6 +5,9 @@
   "repository": "https://github.com/chandru89new/switch-case.git",
   "author": "Chandru <chandru89new@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "yarn jest",
     "build": "yarn jest && tsc",
