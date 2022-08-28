@@ -1,6 +1,6 @@
 {
   "name": "adv-switch-case",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "main": "dist/index.js",
   "repository": "https://github.com/chandru89new/switch-case.git",
   "author": "Chandru <chandru89new@gmail.com>",
